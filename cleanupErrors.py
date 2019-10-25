@@ -3,8 +3,10 @@ newFile2=open("corrected.txt","w") #creates new file so we can clean up the orig
 
 getLines=newFile.readlines() #reads in all definitions.
 
-knownDupes=[12,218,558,602,653,685,825,1016,1068,1121,1125] #this was found manually, but it is a list of all words that appear twice that
-#are not meant to appear twice
+knownDupes=[12,218,558,602,653,685,825,1016,1068,1121,1125] #this was found manually,
+#by comparing to the original pdf 
+#but it is a list of all words appearing twice that
+#are not actually meant to appear twice
 replacements={} #empty list to fill in replacements
 
 wordstoreplace= [ #these are the replacements that are each filled in for the found duplicates
