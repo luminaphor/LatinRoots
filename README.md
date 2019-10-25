@@ -12,3 +12,6 @@ Then, it iterates through all possible ways the two roots can be combined and ou
 The user can continue to run the program and then type "Done" when finished.
 The favorites/saving functionality have not been added yet.
 
+Original pdf file where all roots and their definitions were extracted from can be found here:
+https://www.oakton.edu/user/3/gherrera/Greek%20and%20Latin%20Roots%20in%20English/greek_and_latin_roots.pdf
+
