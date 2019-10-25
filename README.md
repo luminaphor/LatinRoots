@@ -2,10 +2,12 @@
 
 This is a work in Progress, its kinda messy, and there is still some functionality I intend to add.
 
-It cleans up the .txt file to extract the roots and their respective definitions,
-it then cleans up the remaining roots and their definitions so they can be used.
-The actual usernamegen program then picks two roots at random, merges them together in all possible combinations
-and displays those combinations along with the definitions of each root.
+There are two main functions of this program.
+
+1. cleanUpDoc and cleanUpErrors extract the information from the original greek_and_latin_roots2.txt file, and then clean up the extracted information so it can be used in the userNameGen.py script. To do this yourself (though it shouldn't be necessary if you just want to use the word generating function), run cleanUpDoc and then cleanUpErrors respectively.
+
+2. After all information has been extracted and cleaned, the userNameGen.py file should be used without any issues. It works by reading in the roots and definitions files as two separate lists, and then calls two root words at random.
+Then, it iterates through all possible ways the two roots can be combined and outputs this to the user, along with the definition for each root.
 
 The user can continue to run the program and then type "Done" when finished.
 The favorites/saving functionality have not been added yet.
